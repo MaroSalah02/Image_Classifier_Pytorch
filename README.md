@@ -26,7 +26,7 @@ This project involves training and using a deep learning model to classify image
 
 ### Clone the Repository
 
-~~~sh
+~~~
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ~~~
@@ -46,11 +46,10 @@ To train the model, use the `train.py` script. You need to specify the path to t
 
 #### Example Command
 
-sh
 
-Copy code
-
-`python train.py path/to/data --arch vgg16 --epochs 10 --learning_rate 0.001 --hidden_units 512 256 --gpu --save_dir path/to/save/checkpoint`
+~~~
+python train.py path/to/data --arch vgg16 --epochs 10 --learning_rate 0.001 --hidden_units 512 256 --gpu --save_dir path/to/save/checkpoint
+~~~
 
 #### Arguments
 
