@@ -33,12 +33,10 @@ cd your-repo-name
 
 ### Install Dependencies
 
-sh
 
-Copy code
-
-`pip install torch torchvision numpy pillow argparse`
-
+~~~
+pip install torch torchvision numpy pillow argparse`
+~~~
 Usage
 -----
 
@@ -70,12 +68,10 @@ To predict the class of an image, use the `predict.py` script. You need to speci
 
 #### Example Command
 
-sh
+~~~
 
-Copy code
-
-`python predict.py path/to/image path/to/checkpoint --top_k 3 --category_names path/to/category_names.json --gpu`
-
+python predict.py path/to/image path/to/checkpoint --top_k 3 --category_names path/to/category_names.json --gpu
+~~~
 #### Arguments
 
 -   `image` (str): Path to an image.
