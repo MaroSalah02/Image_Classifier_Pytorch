@@ -1,1 +1,1 @@
-## Please check the ipynd file for project explanation
+## Please check the ipynb file for project explanation
